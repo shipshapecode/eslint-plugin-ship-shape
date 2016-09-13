@@ -60,6 +60,7 @@ module.exports = {
       'initialized': 'never'
     }],
     'operator-linebreak': ['error', 'before'],
+    'prefer-const': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
     'quotes': ['error', 'single', {
@@ -81,7 +82,6 @@ module.exports = {
     'spaced-comment': ['error', 'always'],
 
     // Ember Suave rules
-    'ember-suave/no-const-outside-module-scope': 'error',
     'ember-suave/no-direct-property-access': 'error',
     'ember-suave/prefer-destructuring': 'error',
     'ember-suave/require-access-in-comments': 'error',
