@@ -1,18 +1,18 @@
 {
   "name": "eslint-plugin-ship-shape",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "The eslint rules for Ship Shape apps and addons",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author":  {
+  "author": {
     "name": "Robert Wagner",
     "email": "rwwagner90@gmail.com",
     "url": "https://github.com/rwwagner90"
   },
-  "license": "MIT",
+  "license": "ISC",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests tests/lib/rules/*.js tests/config/*.js"
@@ -28,6 +28,5 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  },
-  "license": "ISC"
+  }
 }
