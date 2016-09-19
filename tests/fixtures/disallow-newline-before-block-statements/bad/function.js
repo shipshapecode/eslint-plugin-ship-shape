@@ -1,6 +1,6 @@
 function bad()
 {
-  let obj =
+  const obj =
     {
     val: true
   };

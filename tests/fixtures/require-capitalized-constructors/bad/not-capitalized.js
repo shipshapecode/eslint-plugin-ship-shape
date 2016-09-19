@@ -1,1 +1,1 @@
-let d = new e();
+const d = new e();

@@ -1,6 +1,6 @@
 /* eslint-disable ship-shape/prefer-destructuring */
-let { foo } = SomeThing;
-let { bar } = SomeThing.Baz;
+const { foo } = SomeThing;
+const { bar } = SomeThing.Baz;
 
 let someVariableName = SomeThing.propertyWithDifferentName;
 

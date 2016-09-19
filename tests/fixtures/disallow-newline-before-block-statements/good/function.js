@@ -1,5 +1,5 @@
 function good() {
-  let obj = {
+  const obj = {
     val: true
   };
 

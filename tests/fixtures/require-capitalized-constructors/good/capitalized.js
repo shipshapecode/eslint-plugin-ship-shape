@@ -1,2 +1,2 @@
-let a = new B();
-let c = new this();
+const a = new B();
+const c = new this();

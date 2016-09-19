@@ -1,2 +1,2 @@
-let foo = 7,
+const foo = 7,
     bar = 8;

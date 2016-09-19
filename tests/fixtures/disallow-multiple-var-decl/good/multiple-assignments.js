@@ -1,2 +1,2 @@
-let abc = 8;
-let foo = 5;
+const abc = 8;
+const foo = 5;

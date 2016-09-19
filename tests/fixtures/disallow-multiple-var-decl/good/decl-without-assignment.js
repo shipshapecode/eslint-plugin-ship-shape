@@ -1,1 +1,1 @@
-let a, b;
+const a, b;
