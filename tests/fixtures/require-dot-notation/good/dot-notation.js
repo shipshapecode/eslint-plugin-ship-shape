@@ -1,6 +1,5 @@
-/* eslint-disable ember-suave/prefer-destructuring */
+/* eslint-disable ship-shape/prefer-destructuring */
 let a = b[c];
 let a = b.c;
 let a = b[c.d];
 let a = b.while;
-/* eslint-enable ember-suave/prefer-destructuring */

@@ -1,3 +1,2 @@
-/* eslint-disable ember-suave/no-direct-property-access, ember-suave/prefer-destructuring */
+/* eslint-disable ship-shape/no-direct-property-access, ship-shape/prefer-destructuring */
 const isNone = Ember.isNone;
-/* eslint-enable ember-suave/no-direct-property-access, ember-suave/prefer-destructuring */

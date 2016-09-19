@@ -32,7 +32,7 @@ This rule takes two properties, `array` and `object`, which can be used to turn 
 ```json
 {
   "rules": {
-    "ember-suave/prefer-destructuring": ["error", {
+    "ship-shape/prefer-destructuring": ["error", {
       "array": true,
       "object": true
     }]

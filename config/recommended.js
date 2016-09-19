@@ -11,7 +11,7 @@ module.exports = {
     'browser': true
   },
   plugins: [
-    'ember-suave'
+    'ship-shape'
   ],
   rules: {
     // Built-in Rules
@@ -82,9 +82,9 @@ module.exports = {
     'spaced-comment': ['error', 'always'],
 
     // Ember Suave rules
-    'ember-suave/no-direct-property-access': 'error',
-    'ember-suave/prefer-destructuring': 'error',
-    'ember-suave/require-access-in-comments': 'error',
-    'ember-suave/require-const-for-ember-properties': 'error'
+    'ship-shape/no-direct-property-access': 'error',
+    'ship-shape/prefer-destructuring': 'error',
+    'ship-shape/require-access-in-comments': 'error',
+    'ship-shape/require-const-for-ember-properties': 'error'
   }
 };

@@ -1,3 +1,2 @@
-/* eslint-disable ember-suave/prefer-destructuring */
+/* eslint-disable ship-shape/prefer-destructuring */
 let isNone = Ember.isNone;
-/* eslint-enable ember-suave/prefer-destructuring */

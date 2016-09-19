@@ -6,7 +6,7 @@ var expect = require('chai').expect;
 var CLIEngine = require('eslint').CLIEngine;
 var requireIndex = require('requireindex');
 
-describe('plugin:ember-suave/recommended', function() {
+describe('plugin:ship-shape/recommended', function() {
   var cli;
 
   before(function() {
@@ -17,7 +17,7 @@ describe('plugin:ember-suave/recommended', function() {
 
     var rulesDir = path.resolve(__dirname, '../../lib/rules');
     var rules = requireIndex(rulesDir);
-    cli.addPlugin('eslint-plugin-ember-suave', { rules: rules });
+    cli.addPlugin('eslint-plugin-ship-shape', { rules: rules });
   });
 
   var fixturesDir = path.resolve(__dirname, '../fixtures');

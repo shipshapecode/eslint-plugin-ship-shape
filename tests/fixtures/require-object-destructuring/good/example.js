@@ -1,4 +1,4 @@
-/* eslint-disable ember-suave/prefer-destructuring */
+/* eslint-disable ship-shape/prefer-destructuring */
 let { foo } = SomeThing;
 let { bar } = SomeThing.Baz;
 
@@ -8,4 +8,3 @@ const { get } = SomeThing;
 const { set } = SomeThing;
 
 const { val } = SomeThing['some.key'];
-/* eslint-enable ember-suave/prefer-destructuring */
