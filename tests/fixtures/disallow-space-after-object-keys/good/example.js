@@ -1,8 +1,8 @@
 // Simple object
-let x = { a: 1 };
+const x = { a: 1 };
 
 // Method shorthand
-let x = {
+const x = {
   foo() {
     console.log('foo');
   }

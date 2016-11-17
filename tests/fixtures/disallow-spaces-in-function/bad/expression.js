@@ -1,3 +1,3 @@
-let x = function a () {
+const x = function a () {
   console.log('foo');
 };

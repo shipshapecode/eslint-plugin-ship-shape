@@ -1,10 +1,10 @@
-let x = {
+const x = {
   foo() {
     console.log('foo');
   }
 };
 
-let x = function a() {
+const x = function a() {
   console.log('foo');
 };
 

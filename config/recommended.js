@@ -81,7 +81,8 @@ module.exports = {
     }],
     'spaced-comment': ['error', 'always'],
 
-    // Ember Suave rules
+    // Ember Suave and Netguru Rules
+    'ship-shape/order-in-components': 'error',
     'ship-shape/no-direct-property-access': 'error',
     'ship-shape/prefer-destructuring': 'error',
     'ship-shape/require-access-in-comments': 'error',

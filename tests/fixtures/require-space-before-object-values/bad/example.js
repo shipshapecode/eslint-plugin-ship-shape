@@ -1,1 +1,1 @@
-let x = { a:1 };
+const x = { a:1 };

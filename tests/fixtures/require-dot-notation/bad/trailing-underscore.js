@@ -1,1 +1,1 @@
-let a = b['camelCased_'];
+const a = b['camelCased_'];

@@ -1,2 +1,2 @@
-let x = 'x';
-let y = "Boomer's toy";
+const x = 'x';
+const y = "Boomer's toy";

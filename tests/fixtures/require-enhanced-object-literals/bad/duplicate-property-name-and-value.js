@@ -1,5 +1,5 @@
 const someProperty = 'whatever';
 
-let myObject = {
+const myObject = {
   someProperty: someProperty
 };

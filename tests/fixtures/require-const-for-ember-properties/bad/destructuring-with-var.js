@@ -1,1 +1,1 @@
-let { isNone } = Ember;
+var { isNone } = Ember;

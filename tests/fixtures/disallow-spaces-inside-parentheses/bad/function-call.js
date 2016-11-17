@@ -1,1 +1,1 @@
-let y = foo( {} );
+const y = foo( {} );

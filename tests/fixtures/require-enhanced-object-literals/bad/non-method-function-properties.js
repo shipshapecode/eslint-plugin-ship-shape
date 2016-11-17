@@ -1,3 +1,3 @@
-let myObject = {
+const myObject = {
   someMethod: function() {}
 };

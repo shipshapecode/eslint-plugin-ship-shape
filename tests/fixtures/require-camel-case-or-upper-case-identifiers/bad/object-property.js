@@ -1,1 +1,1 @@
-let obj.snake_case = 5;
+const obj.snake_case = 5;

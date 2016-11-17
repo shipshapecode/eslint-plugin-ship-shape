@@ -1,1 +1,1 @@
-let foo = function *() {};
+const foo = function *() {};

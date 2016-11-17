@@ -1,1 +1,1 @@
-let a = b ? c : d;
+const a = b ? c : d;

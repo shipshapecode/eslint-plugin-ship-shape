@@ -1,1 +1,1 @@
-let bar = SomeThing.Baz.bar;
+const bar = SomeThing.Baz.bar;

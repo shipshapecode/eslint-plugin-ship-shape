@@ -2,7 +2,7 @@
 const { foo } = SomeThing;
 const { bar } = SomeThing.Baz;
 
-let someVariableName = SomeThing.propertyWithDifferentName;
+const someVariableName = SomeThing.propertyWithDifferentName;
 
 const { get } = SomeThing;
 const { set } = SomeThing;

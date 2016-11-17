@@ -1,3 +1,3 @@
-for (let e in elements) {
+for (const e in elements) {
   bar(e);
 }

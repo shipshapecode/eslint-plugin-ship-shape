@@ -1,2 +1,2 @@
-let x = { a: { b: 1 } };
-let y = { a: 1 };
+const x = { a: { b: 1 } };
+const y = { a: 1 };

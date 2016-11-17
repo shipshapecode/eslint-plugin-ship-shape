@@ -1,4 +1,4 @@
-let foo = {
+const foo = {
   bar() {
     console.log('bar');
   }

@@ -1,2 +1,2 @@
-let foo = 'asdf';
-let bar = 'derp' + foo;
+const foo = 'asdf';
+const bar = 'derp' + foo;

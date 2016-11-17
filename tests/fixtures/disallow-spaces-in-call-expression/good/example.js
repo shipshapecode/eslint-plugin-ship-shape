@@ -1,1 +1,1 @@
-let x = foobar();
+const x = foobar();

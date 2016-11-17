@@ -1,1 +1,1 @@
-let bar = { a: 'a', b: 'b', };
+const bar = { a: 'a', b: 'b', };

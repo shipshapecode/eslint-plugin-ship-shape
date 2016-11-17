@@ -1,7 +1,7 @@
-let foo = 'foo bar';
-let bar = `${foo} stuff`;
+const foo = 'foo bar';
+const bar = `${foo} stuff`;
 
 foo(`${bar}-${foo}`);
 
-let reallyLong = 'asdfadfdsfasdfadfadfasdf'
+const reallyLong = 'asdfadfdsfasdfadfadfasdf'
     +  'adsfasdf';

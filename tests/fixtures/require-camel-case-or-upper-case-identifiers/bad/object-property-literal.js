@@ -1,1 +1,1 @@
-let camelCase = { snake_case: 6 };
+const camelCase = { snake_case: 6 };

@@ -1,5 +1,5 @@
-let blah = 'foo';
+const blah = 'foo';
 
-let myObject = {
+const myObject = {
   'blah': blah
 };
