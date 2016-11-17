@@ -86,6 +86,7 @@ module.exports = {
     'ship-shape/order-in-components': 'error',
     'ship-shape/order-in-models': 'error',
     'ship-shape/no-direct-property-access': 'error',
+    'ship-shape/no-side-effects': 'error',
     'ship-shape/prefer-destructuring': 'error',
     'ship-shape/require-access-in-comments': 'error',
     'ship-shape/require-const-for-ember-properties': 'error'
