@@ -90,6 +90,7 @@ module.exports = {
     'ship-shape/prefer-destructuring': 'error',
     'ship-shape/query-params-on-top': 'error',
     'ship-shape/require-access-in-comments': 'error',
-    'ship-shape/require-const-for-ember-properties': 'error'
+    'ship-shape/require-const-for-ember-properties': 'error',
+    'ship-shape/use-brace-expansion': 'error'
   }
 };
