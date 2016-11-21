@@ -88,6 +88,7 @@ module.exports = {
     'ship-shape/order-in-models': 'error',
     'ship-shape/no-direct-property-access': 'error',
     'ship-shape/no-empty-attrs': 'error',
+    'ship-shape/no-on-calls-in-components': 'error',
     'ship-shape/no-side-effects': 'error',
     'ship-shape/prefer-destructuring': 'error',
     'ship-shape/query-params-on-top': 'error',
