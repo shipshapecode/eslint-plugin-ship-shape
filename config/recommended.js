@@ -91,6 +91,7 @@ module.exports = {
     'ship-shape/order-in-components': 'error',
     'ship-shape/order-in-controllers': 'error',
     'ship-shape/order-in-models': 'error',
+    'ship-shape/order-in-routes': 'error',
     'ship-shape/prefer-destructuring': 'error',
     'ship-shape/query-params-on-top': 'error',
     'ship-shape/require-access-in-comments': 'error',
