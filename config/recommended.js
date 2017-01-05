@@ -83,6 +83,7 @@ module.exports = {
 
     // Ember Suave and Netguru Rules
     'ship-shape/avoid-leaking-state-in-components': 'error',
+    'ship-shape/closure-actions': 'error',
     'ship-shape/no-direct-property-access': 'error',
     'ship-shape/no-empty-attrs': 'error',
     'ship-shape/no-observers': 'error',
