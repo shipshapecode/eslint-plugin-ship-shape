@@ -1,2 +1,0 @@
-Ember.MODEL_FACTORY_INJECTIONS = true;
-DS.SOME_PROPERTY = true;

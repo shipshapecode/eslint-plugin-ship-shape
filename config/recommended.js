@@ -3,7 +3,7 @@
 module.exports = {
   root: true,
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 2017,
     sourceType: 'module'
   },
   parser: 'babel-eslint',
@@ -11,7 +11,11 @@ module.exports = {
     'browser': true
   },
   plugins: [
+    'ember',
     'ship-shape'
+  ],
+  extends: [
+    'plugin:ember/recommended'
   ],
   rules: {
     // Built-in Rules
@@ -81,22 +85,19 @@ module.exports = {
     }],
     'spaced-comment': ['error', 'always'],
 
-    // Ember Suave and Netguru Rules
-    'ship-shape/avoid-leaking-state-in-components': 'error',
-    'ship-shape/closure-actions': 'error',
-    'ship-shape/no-direct-property-access': 'error',
-    'ship-shape/no-empty-attrs': 'error',
-    'ship-shape/no-observers': 'error',
-    'ship-shape/no-on-calls-in-components': 'error',
-    'ship-shape/no-side-effects': 'error',
-    'ship-shape/order-in-components': 'error',
-    'ship-shape/order-in-controllers': 'error',
-    'ship-shape/order-in-models': 'error',
-    'ship-shape/order-in-routes': 'error',
+    // eslint-plugin-ember rules
+    'ember/avoid-leaking-state-in-components': 'error',
+    'ember/closure-actions': 'error',
+    'ember/no-empty-attrs': 'error',
+    'ember/no-observers': 'error',
+    'ember/order-in-components': 'error',
+    'ember/order-in-controllers': 'error',
+    'ember/order-in-models': 'error',
+    'ember/order-in-routes': 'error',
+
+    // Internal rules copied from ember-suave
     'ship-shape/prefer-destructuring': 'error',
     'ship-shape/query-params-on-top': 'error',
     'ship-shape/require-access-in-comments': 'error',
-    'ship-shape/require-const-for-ember-properties': 'error',
-    'ship-shape/use-brace-expansion': 'error'
   }
 };

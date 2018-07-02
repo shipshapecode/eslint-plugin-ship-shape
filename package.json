@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "babel-eslint": "^8.2.5",
+    "eslint-plugin-ember": "^5.2.0",
     "requireindex": "~1.2.0"
   },
   "devDependencies": {
