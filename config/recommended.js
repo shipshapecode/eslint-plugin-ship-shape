@@ -63,7 +63,6 @@ module.exports = {
       'uninitialized': 'always',
       'initialized': 'never'
     }],
-    'operator-linebreak': ['error', 'before'],
     'prefer-const': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
