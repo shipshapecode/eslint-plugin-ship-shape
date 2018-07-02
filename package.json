@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ship-shape",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "The eslint rules for Ship Shape apps and addons",
   "keywords": [
     "eslint",
