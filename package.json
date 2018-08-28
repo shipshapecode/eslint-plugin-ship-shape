@@ -18,7 +18,7 @@
     "test": "mocha tests tests/lib/rules/*.js tests/config/*.js"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.5",
+    "babel-eslint": "^9.0.0",
     "eslint-plugin-ember": "^5.2.0",
     "requireindex": "~1.2.0"
   },
