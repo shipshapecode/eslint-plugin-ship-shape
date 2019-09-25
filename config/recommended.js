@@ -33,7 +33,7 @@ module.exports = {
     'curly': ['error', 'all'],
     'dot-notation': 'error',
     'dot-location': ['error', 'property'],
-    'generator-star-spacing': ['error', {'before': false}],
+    'generator-star-spacing': ['error', { 'before': false }],
     'indent': ['error', 2, {
       'SwitchCase': 1
     }],
@@ -41,7 +41,7 @@ module.exports = {
       'beforeColon': false,
       'afterColon': true
     }],
-    'keyword-spacing': ['error', {'overrides': {'catch': {'after': false}}}],
+    'keyword-spacing': ['error', { 'overrides': { 'catch': { 'after': false } } }],
     'max-statements-per-line': ['error', { 'max': 1 }],
     'new-cap': ['error', {
       // Capital variables that can be used without `new`
@@ -64,6 +64,10 @@ module.exports = {
       'initialized': 'never'
     }],
     'prefer-const': 'error',
+    'prefer-destructuring': ['error', {
+      'object': true,
+      'array': false
+    }],
     'prefer-spread': 'error',
     'prefer-template': 'error',
     'quotes': ['error', 'single', {
@@ -95,8 +99,7 @@ module.exports = {
     'ember/order-in-routes': 'error',
 
     // Internal rules copied from ember-suave
-    'ship-shape/prefer-destructuring': 'error',
     'ship-shape/query-params-on-top': 'error',
-    'ship-shape/require-access-in-comments': 'error',
+    'ship-shape/require-access-in-comments': 'error'
   }
 };
