@@ -64,9 +64,17 @@ module.exports = {
       'initialized': 'never'
     }],
     'prefer-const': 'error',
-    'prefer-destructuring': ['error', {
-      'object': true,
-      'array': false
+    "prefer-destructuring": ["error", {
+      "VariableDeclarator": {
+        "array": false,
+        "object": true
+      },
+      "AssignmentExpression": {
+        "array": false,
+        "object": false
+      }
+    }, {
+      "enforceForRenamedProperties": false
     }],
     'prefer-spread': 'error',
     'prefer-template': 'error',
@@ -99,7 +107,6 @@ module.exports = {
     'ember/order-in-routes': 'error',
 
     // Internal rules copied from ember-suave
-    'ship-shape/query-params-on-top': 'error',
-    'ship-shape/require-access-in-comments': 'error'
+    'ship-shape/query-params-on-top': 'error'
   }
 };
