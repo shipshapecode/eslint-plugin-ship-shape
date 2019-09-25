@@ -1,4 +1,4 @@
-/* eslint-disable ship-shape/prefer-destructuring */
+/* eslint-disable prefer-destructuring */
 const a = b[c];
 const a = b.c;
 const a = b[c.d];

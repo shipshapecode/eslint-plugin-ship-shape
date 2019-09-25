@@ -1,4 +1,4 @@
-/* eslint-disable ship-shape/prefer-destructuring */
+/* eslint-disable prefer-destructuring */
 const { foo } = SomeThing;
 const { bar } = SomeThing.Baz;
 
