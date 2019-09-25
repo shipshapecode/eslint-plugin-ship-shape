@@ -2,3 +2,5 @@
 docs/
 tests/
 .travis.yml
+
+.idea/
