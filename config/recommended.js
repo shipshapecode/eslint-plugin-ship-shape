@@ -97,7 +97,6 @@ module.exports = {
     'spaced-comment': ['error', 'always'],
 
     // eslint-plugin-ember rules
-    'ember/avoid-leaking-state-in-components': 'error',
     'ember/closure-actions': 'error',
     'ember/no-empty-attrs': 'error',
     'ember/no-observers': 'error',
