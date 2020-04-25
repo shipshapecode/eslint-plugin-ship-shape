@@ -3,7 +3,7 @@
 module.exports = {
   root: true,
   parserOptions: {
-    ecmaVersion: 2017,
+    ecmaVersion: 2020,
     sourceType: 'module'
   },
   parser: 'babel-eslint',
@@ -41,7 +41,7 @@ module.exports = {
       'beforeColon': false,
       'afterColon': true
     }],
-    'keyword-spacing': ['error', { 'overrides': { 'catch': { 'after': false } } }],
+    'keyword-spacing': 'error',
     'max-statements-per-line': ['error', { 'max': 1 }],
     'new-cap': ['error', {
       // Capital variables that can be used without `new`
