@@ -5,5 +5,5 @@
 [![Build Status](https://travis-ci.org/shipshapecode/eslint-plugin-ship-shape.svg?branch=master)](https://travis-ci.org/shipshapecode/eslint-plugin-ship-shape)
 
 This project takes all the best parts of [eslint-plugin-ember-suave](https://github.com/DockYard/eslint-plugin-ember-suave)
-and [eslint-plugin-netguru-ember](https://github.com/netguru/eslint-plugin-netguru-ember) and also tweaks some of the recommended rules.
+and [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember) and also tweaks some of the recommended rules.
 It is meant to be a one stop shop, complete set of ESLint goodness for your Ember app or addon.
